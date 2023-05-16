@@ -18,7 +18,7 @@
     <title>Mistica Pizza & Drinks 🍕</title>
   </head>
   
-  <body class="container">
+  <body class="containerTuPedido">
     
     <header class="header">
       <h1>Mistica 🍕</h1>
@@ -35,15 +35,40 @@
     </header>
 
     <main>
+      <form>
+        <h2>Hacer Pedido</h2>
+        
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion" required>
+        
+        <label for="telefono">Teléfono:</label>
+        <input type="text" id="telefono" name="telefono" required>
+        
+        <label for="pizza">Pizza:</label>
+        <select id="pizza" name="pizza">
+          <option value="margarita">Margarita</option>
+          <option value="pepperoni">Pepperoni</option>
+          <option value="hawaiana">Hawaiana</option>
+        </select>
+        
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" id="cantidad" name="cantidad" required>
+        
+        <button type="submit">Hacer Pedido</button>
+      </form>
 
     </main>
-    <hr>
 
     <footer class="footer">
       <h5>📞098455636 📧maximilianocharamello@gmail.com</h5>
-      <img src="../images/logofacebook.JPG" alt="logofacebook">
-      <img src="../images/logoinstagram.JPG" alt="logoinstagram">
-      <img src="../images/logowpp.JPG" alt="logowpp">
+      <div class="redes">
+        <img src="../images/logofacebook.JPG" alt="logofacebook">
+        <img src="../images/logoinstagram.JPG" alt="logoinstagram">
+        <img src="../images/logowpp.JPG" alt="logowpp">
+        </div>
     </footer>
 
   </body>
