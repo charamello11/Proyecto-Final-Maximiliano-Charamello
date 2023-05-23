@@ -1,0 +1,108 @@
+*
+{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Barlow Condensed', sans-serif;}
+
+
+
+.container {  display: grid;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-rows: auto 2fr auto 1.5fr auto ;
+    grid-template-areas:
+        "header"
+        "carrusel"
+        "maspedidos"
+        "zonadelivery"
+        "footer";
+        font-family: 'Barlow Condensed', sans-serif;
+        background-color: rgb(218, 218, 218);
+
+
+.header{
+    grid-area: header;
+    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+
+    .navegador{
+        height: 70px;
+
+        .botonera{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            list-style: none;
+            padding: 10px;
+            background-color: brown;
+            border-radius: 10px;
+
+            .botonera li a{
+                color: azure;
+
+                &:hover{
+                    background-color: black;
+                    color: aliceblue;
+                        }
+
+                        }
+                }
+            }
+
+        }
+
+    }
+
+.carrusel { grid-area: carrusel;
+            height: 100%;
+            margin: 0 auto; 
+            margin-top: 2rem;
+            background-color: rgb(219, 219, 214);}
+            
+.maspedidos { grid-area: maspedidos;
+            margin-top: 5rem;
+            margin-bottom: 3rem;
+            text-align: center;
+            background-color: rgb(219, 219, 214);
+            
+            }
+
+.cardPedido{
+            width: 23%;
+            margin: 10px ;
+            }
+
+            
+.zonadelivery { grid-area: zonadelivery;
+            background-color: beige;
+            margin-top: 5rem;
+            margin-bottom: 5rem;
+            text-align: center; }
+
+.footer { grid-area: footer;
+                display: flex;
+                background-color: darkgray;
+                justify-content: space-between;
+                align-items: center;
+
+                .footer img{ 
+                    width: 50px;
+                    height: 50px;
+                    }
+
+                    .redes{
+                        display: flex;
+                            }
+                            
+                        }
+
+
+@import "menu";
+@import "opiniones";
+@import "sobreNosotros";
+@import "tuPedido";
+@import "mediaQueries";

@@ -1,0 +1,23 @@
+
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 180px;
+    margin-right: 180px;
+    gap: 30px
+}
+
+.titulo {
+    margin-top: 0;
+}
+
+
+
+.foto {
+    margin-bottom: 5%;
+}
