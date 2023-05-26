@@ -240,10 +240,10 @@ form {
 @media (max-width: 375px) {
   /*MEDIAS QUERIES "INDEX MOBILE M"*/
   .carrusel {
-    margin-top: 60%; }
+    margin-top: 5%; }
   /*MEDIAS QUERIES "MENU MOBILE M"*/
   .menuCatalogo {
-    margin-top: 60%; }
+    margin-top: 5%; }
   .galeria {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -253,16 +253,6 @@ form {
     margin-top: 2%;
     margin-bottom: 2%;
     background-color: aquamarine; }
-  .botonera {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    list-style: none;
-    padding: 10px;
-    background-color: brown;
-    border-radius: 10px; }
-    .botonera li {
-      margin-bottom: 10px; }
   /*MEDIAS QUERIES "SOBRE NOSOTROS MOBILE M"*/
   .contenedor {
     margin-left: 30px;
@@ -282,7 +272,7 @@ form {
     height: 20px; }
   /*MEDIAS QUERIES "TU PEDIDO MOBILE M"*/
   .pedidos {
-    margin-top: 60%;
+    margin-top: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -293,17 +283,17 @@ form {
       margin: 30px; }
   /*MEDIAS QUERIES "OPINIONES MOBILE M"*/
   .opiniones {
-    margin-top: 60%; } }
+    margin-top: 5%; } }
 
 @media (max-width: 320px) {
   /*MEDIAS QUERIES "INDEX MOBILE S"*/
   .carrusel {
-    margin-top: 70%; }
+    margin-top: 5%; }
   /*MEDIAS QUERIES "MENU MOBILE S"*/
   .menuCatalogo {
-    margin-top: 70%; }
+    margin-top: 5%; }
   /*MEDIAS QUERIES "SOBRE NOSOTROS MOBILE S"*/
   .contenedor {
-    margin-top: 70%; }
+    margin-top: 5%; }
   /*MEDIAS QUERIES "TU PEDIDO MOBILE S"*/
   /*MEDIAS QUERIES "OPINIONES MOBILE S"*/ }
