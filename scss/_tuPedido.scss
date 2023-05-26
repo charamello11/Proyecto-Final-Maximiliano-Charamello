@@ -1,4 +1,16 @@
 
+.pedidos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .fotopizza {
+        width: 400px;
+        height: 400px;
+        margin: 30px;
+        }
+}
 
 form {
     background-color: palegoldenrod ;

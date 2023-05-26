@@ -1,281 +1,240 @@
-*
-{margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: 'Barlow Condensed', sans-serif;}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Barlow Condensed', sans-serif; }
 
-.container {  display: grid;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-rows: auto 2fr auto 1.5fr auto ;
-    grid-template-areas:
-      "header"
-      "carrusel"
-      "maspedidos"
-      "zonadelivery"
-      "footer";
-      font-family: 'Barlow Condensed', sans-serif;
-      background-color: rgb(218, 218, 218);
-  }
-  
-           /* ESTILO INDEX */
+.container {
+  display: grid;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-rows: auto 2fr auto 1.5fr auto;
+  grid-template-areas: "header" "carrusel" "maspedidos" "zonadelivery" "footer";
+  font-family: 'Barlow Condensed', sans-serif;
+  background-color: #dadada; }
 
+.header {
+  grid-area: header;
+  background-color: darkgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px; }
+  .header .navegador {
+    height: 70px; }
+    .header .navegador .botonera {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      list-style: none;
+      padding: 10px;
+      background-color: brown;
+      border-radius: 10px; }
+      .header .navegador .botonera li a {
+        color: white;
+        text-decoration: none;
+        border-radius: 5px; }
+        .header .navegador .botonera li a:hover {
+          background-color: black;
+          color: white; }
 
-  .header { grid-area: header;
-    background-color: darkgray;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    border-radius: 10px; }
-
-    .navegador{
-      height: 70px; }
-
-    .botonera{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    list-style: none;
-    padding: 10px;
-    background-color: brown;
-    border-radius: 10px;
-}
-.botonera li a{ 
-    color: azure;
-}
-
-.botonera li a:hover{
-  background-color: black;
-  color: aliceblue;
-}
-
-
-
-  .carrusel { grid-area: carrusel;
+.carrusel {
+  grid-area: carrusel;
   height: 100%;
-  margin: 0 auto; 
+  margin: 0 auto;
   margin-top: 2rem;
-  background-color: rgb(219, 219, 214);}
-  
-  .maspedidos { grid-area: maspedidos;
-    margin-top: 5rem;
-    margin-bottom: 3rem;
-    text-align: center;
-    background-color: rgb(219, 219, 214);
-  
-  }
+  background-color: #dbdbd6; }
 
-  .cardPedido{
-    width: 23%;
-    margin: 10px ;
-  }
+.maspedidos {
+  grid-area: maspedidos;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  background-color: #dbdbd6; }
 
-  
-  .zonadelivery { grid-area: zonadelivery;
+.cardPedido {
+  width: 23%;
+  margin: 10px; }
+
+.zonadelivery {
+  grid-area: zonadelivery;
   background-color: beige;
   margin-top: 5rem;
   margin-bottom: 5rem;
   text-align: center; }
 
-
-  
-  
-  .footer { grid-area: footer;
+.footer {
+  grid-area: footer;
+  display: flex;
+  background-color: darkgray;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px; }
+  .footer .redes {
     display: flex;
-    background-color: darkgray;
-    justify-content: space-between;
-    align-items: center;
-  }
+    font-size: 28px;
+    justify-content: space-between; }
 
-
-.footer img{ 
-    width: 50px;
-    height: 50px;
-  }
-
-.redes{
-  display: flex;
-}
-
-
-          /* ESTILO OPINIONES*/
-
-.fotoformulario{
-  text-align: center;
-  
-}
-
-.formulariocontacto{
-  
-  background-color: cornflowerblue;
-  width: 400px;
-  padding: 30px;
-  margin:0 auto;
-  border:5px coral solid ;
-
-}
-
-          /* ESTILO SOBRE NOSOTROS*/
-
-          .contenedor {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            margin-top: 20px;
-            margin-left: 180px;
-            margin-right: 180px;
-            gap: 30px
-          }
-          
-          .titulo {
-            margin-top: 0;
-          }
-          
-          
-          
-          .foto {
-            margin-bottom: 5%;
-          }
-          
-          
-
-
-          /* ESTILO MENU*/
-
-          .galeria {
-            display: grid;
-            grid-template-columns: repeat(5, 1fr);
-            grid-gap: 10px;
-            width: 100%;
-            height: 100%;
-            margin-top: 2%;
-            margin-bottom: 2%;
-
-          }
-          
-          .galeria img {
-            width: 100%;
-            height: 100%;
-          }
-          
-
-          h3{
-            text-align: center;
-          }
-
-
-
-          /* ESTILO TU PEDIDO*/
-
-          form {
-            background-color: palegoldenrod ;
-            padding: 20px;
-            border-radius: 5px;
-            max-width: 400px;
-            margin: 0 auto;
-            margin-top: 2%;
-            margin-bottom: 2%;
-            
-          }
-          
-          h2 {
-            margin-bottom: 20px;
-          }
-          
-          label {
-            display: block;
-            margin-bottom: 5px;
-          }
-          
-          input, select {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 10px;
-            border-radius: 5px;
-            border: 1px solid #ccc;
-          }
-          
-          button {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-          }
-          
-          button:hover {
-            background-color: #45a049;
-          }
-
-
-          /*MEDIAS QUERIES "INDEX*/
-
-@media (max-width: 480px) {
-
-
-  .container{
-    grid-auto-flow: column;
-  
-  }
-
-
-/*MEDIAS QUERIES "SOBRE NOSOTROS"*/
-
-.contenedor{
-  
-  margin-left: 50px;
-  margin-right: 50px;
-
-}
-.titulo{
-  color: red;
-}
-.texto{
-  color:blue
-}
-.foto{
-  width: 300px;
-}
-
-.footer{
-  display: flex;
-}
-
-.redes img{
-  width: 30px;
-  height: 30px;
-
-}
-
-
-/*MEDIAS QUERIES "MENU"*/
-
-.galeria{
+.galeria {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-gap: 10px;
   width: 100%;
   height: 100%;
   margin-top: 2%;
-  margin-bottom: 2%;
-  background-color: aquamarine;
+  margin-bottom: 2%; }
+  .galeria img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease; }
+    .galeria img:hover {
+      transform: scale(1.1); }
 
+h3 {
+  text-align: center; }
 
-}
+h2 {
+  text-align: center; }
 
-}
+.historia {
+  text-align: center;
+  margin: 50px; }
 
+.valoracion {
+  display: flex;
+  padding: 2%;
+  margin-bottom: 2%; }
+  .valoracion .formulariocontacto {
+    background-color: cornflowerblue;
+    width: 400px;
+    padding: 30px;
+    margin: 0 auto;
+    border: 5px solid coral;
+    border-radius: 5px; }
+    .valoracion .formulariocontacto h2 {
+      text-align: center; }
+    .valoracion .formulariocontacto .form-group {
+      margin-bottom: 20px; }
+      .valoracion .formulariocontacto .form-group label {
+        display: block;
+        margin-bottom: 5px; }
+      .valoracion .formulariocontacto .form-group input[type="text"],
+      .valoracion .formulariocontacto .form-group input[type="email"],
+      .valoracion .formulariocontacto .form-group select,
+      .valoracion .formulariocontacto .form-group textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc; }
+      .valoracion .formulariocontacto .form-group textarea {
+        resize: vertical; }
+    .valoracion .formulariocontacto button {
+      background-color: cornflowerblue;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s; }
+      .valoracion .formulariocontacto button:hover {
+        background-color: #3676e8; }
 
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 180px;
+  margin-right: 180px;
+  gap: 30px; }
 
-@media (max-width: 375px){
+.titulo {
+  margin-top: 0; }
 
-  /*MEDIAS QUERIES "MENU MOBILE"*/
+.foto {
+  margin-bottom: 5%; }
 
-  .galeria{
+.pedidos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+  .pedidos .fotopizza {
+    width: 400px;
+    height: 400px;
+    margin: 30px; }
+
+form {
+  background-color: palegoldenrod;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 2%;
+  margin-bottom: 2%; }
+  form h2 {
+    margin-bottom: 20px; }
+  form label {
+    display: block;
+    margin-bottom: 5px; }
+  form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc; }
+  form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; }
+    form button:hover {
+      background-color: #45a049; }
+
+/*MEDIAS QUERIES "INDEX*/
+@media (max-width: 480px) {
+  .container {
+    grid-auto-flow: column; }
+  /*MEDIAS QUERIES "SOBRE NOSOTROS"*/
+  .contenedor {
+    margin-left: 50px;
+    margin-right: 50px; }
+  .titulo {
+    color: red; }
+  .texto {
+    color: blue; }
+  .foto {
+    width: 300px; }
+  .footer {
+    display: flex; }
+  .redes img {
+    width: 30px;
+    height: 30px; }
+  /*MEDIAS QUERIES "MENU"*/
+  .galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    width: 100%;
+    height: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: aquamarine; } }
+
+/*MEDIAS QUERIES "OPINIONES"*/
+@media (max-width: 375px) {
+  /*MEDIAS QUERIES "INDEX MOBILE M"*/
+  .carrusel {
+    margin-top: 60%; }
+  /*MEDIAS QUERIES "MENU MOBILE M"*/
+  .menuCatalogo {
+    margin-top: 60%; }
+  .galeria {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
@@ -283,47 +242,58 @@ font-family: 'Barlow Condensed', sans-serif;}
     height: 100%;
     margin-top: 2%;
     margin-bottom: 2%;
-    background-color: aquamarine;
-  
-  
-  }
-
-  .botonera{
+    background-color: aquamarine; }
+  .botonera {
     display: flex;
     flex-direction: column;
     gap: 20px;
     list-style: none;
     padding: 10px;
     background-color: brown;
-    border-radius: 10px;
-}
+    border-radius: 10px; }
+    .botonera li {
+      margin-bottom: 10px; }
+  /*MEDIAS QUERIES "SOBRE NOSOTROS MOBILE M"*/
+  .contenedor {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 60%; }
+  .titulo {
+    color: red; }
+  .texto {
+    color: blue; }
+  .foto {
+    width: 200px;
+    margin-bottom: 50px; }
+  .footer {
+    display: flex; }
+  .redes img {
+    width: 20px;
+    height: 20px; }
+  /*MEDIAS QUERIES "TU PEDIDO MOBILE M"*/
+  .pedidos {
+    margin-top: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .pedidos .fotopizza {
+      width: 300px;
+      height: 300px;
+      margin: 30px; }
+  /*MEDIAS QUERIES "OPINIONES MOBILE M"*/
+  .opiniones {
+    margin-top: 60%; } }
 
-/*MEDIAS QUERIES "SOBRE NOSOTROS MOBILE"*/
-
-.contenedor{
-  
-  margin-left: 30px;
-  margin-right: 30px;
-
-}
-.titulo{
-  color: red;
-}
-.texto{
-  color:blue
-}
-.foto{
-  width: 200px;
-  margin-bottom: 50px;
-}
-
-.footer{
-  display: flex;
-}
-
-.redes img{
-  width: 20px;
-  height: 20px;
-
-}
-}
+@media (max-width: 320px) {
+  /*MEDIAS QUERIES "INDEX MOBILE S"*/
+  .carrusel {
+    margin-top: 70%; }
+  /*MEDIAS QUERIES "MENU MOBILE S"*/
+  .menuCatalogo {
+    margin-top: 70%; }
+  /*MEDIAS QUERIES "SOBRE NOSOTROS MOBILE S"*/
+  .contenedor {
+    margin-top: 70%; }
+  /*MEDIAS QUERIES "TU PEDIDO MOBILE S"*/
+  /*MEDIAS QUERIES "OPINIONES MOBILE S"*/ }

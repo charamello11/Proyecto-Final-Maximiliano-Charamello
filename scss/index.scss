@@ -19,6 +19,8 @@ font-family: 'Barlow Condensed', sans-serif;}
         font-family: 'Barlow Condensed', sans-serif;
         background-color: rgb(218, 218, 218);
 
+    }
+
 
 .header{
     grid-area: header;
@@ -41,12 +43,14 @@ font-family: 'Barlow Condensed', sans-serif;}
             background-color: brown;
             border-radius: 10px;
 
-            .botonera li a{
-                color: azure;
+            li a{
+                color: white;
+                text-decoration: none;
+                border-radius: 5px;
 
                 &:hover{
                     background-color: black;
-                    color: aliceblue;
+                    color: white;
                         }
 
                         }
@@ -55,7 +59,7 @@ font-family: 'Barlow Condensed', sans-serif;}
 
         }
 
-    }
+
 
 .carrusel { grid-area: carrusel;
             height: 100%;
@@ -88,21 +92,18 @@ font-family: 'Barlow Condensed', sans-serif;}
                 background-color: darkgray;
                 justify-content: space-between;
                 align-items: center;
+                padding: 5px;
 
-                .footer img{ 
-                    width: 50px;
-                    height: 50px;
-                    }
-
-                    .redes{
-                        display: flex;
+            .redes{
+                    display: flex;
+                    font-size: 28px;
+                    justify-content: space-between;
                             }
                             
                         }
 
-
 @import "menu";
 @import "opiniones";
-@import "sobreNosotros";
-@import "tuPedido";
-@import "mediaQueries";
+@import "sobrenosotros";
+@import "tupedido";
+@import "mediaqueries";
