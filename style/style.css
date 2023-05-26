@@ -224,19 +224,18 @@ form {
     height: 100%;
     margin-top: 2%;
     margin-bottom: 2%;
-    background-color: aquamarine; } }
-
-/*MEDIAS QUERIES "OPINIONES"*/
-/*MEDIAS QUERIES "TU PEDIDO"*/
-.pedidos {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-  .pedidos .fotopizza {
-    width: 300px;
-    height: 300px;
-    margin: 30px; }
+    background-color: aquamarine; }
+  /*MEDIAS QUERIES "OPINIONES"*/
+  /*MEDIAS QUERIES "TU PEDIDO"*/
+  .pedidos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .pedidos .fotopizza {
+      width: 300px;
+      height: 300px;
+      margin: 30px; } }
 
 @media (max-width: 375px) {
   /*MEDIAS QUERIES "INDEX MOBILE M"*/
