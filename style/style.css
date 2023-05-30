@@ -21,23 +21,11 @@
   align-items: center;
   gap: 10px;
   border-radius: 10px; }
-  .header .navegador {
-    height: 70px; }
-    .header .navegador .botonera {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      list-style: none;
-      padding: 10px;
-      background-color: brown;
-      border-radius: 10px; }
-      .header .navegador .botonera li a {
-        color: white;
-        text-decoration: none;
-        border-radius: 5px; }
-        .header .navegador .botonera li a:hover {
-          background-color: black;
-          color: white; }
+  .header .navbar {
+    border-radius: 15px;
+    margin-bottom: 10px; }
+    .header .navbar .navbar-brand img {
+      max-width: 80px; }
 
 .carrusel {
   grid-area: carrusel;

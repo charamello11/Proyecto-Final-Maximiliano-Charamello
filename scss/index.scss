@@ -31,33 +31,16 @@ font-family: 'Barlow Condensed', sans-serif;}
     gap: 10px;
     border-radius: 10px;
 
-    .navegador{
-        height: 70px;
-
-        .botonera{
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            list-style: none;
-            padding: 10px;
-            background-color: brown;
-            border-radius: 10px;
-
-            li a{
-                color: white;
-                text-decoration: none;
-                border-radius: 5px;
-
-                &:hover{
-                    background-color: black;
-                    color: white;
-                        }
-
-                        }
-                }
+    .navbar{
+        border-radius: 15px;
+        margin-bottom: 10px;
+            .navbar-brand{
+                img {
+                max-width: 80px;
             }
-
         }
+    }
+}
 
 
 
