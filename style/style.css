@@ -105,14 +105,15 @@ h2 {
   padding: 2%;
   margin-bottom: 2%; }
   .valoracion .formulariocontacto {
-    background-color: cornflowerblue;
+    background-color: black;
     width: 400px;
     padding: 30px;
     margin: 0 auto;
-    border: 5px solid coral;
+    border: 5px solid #919191;
     border-radius: 5px; }
     .valoracion .formulariocontacto h2 {
-      text-align: center; }
+      text-align: center;
+      color: white; }
     .valoracion .formulariocontacto .form-group {
       margin-bottom: 20px; }
       .valoracion .formulariocontacto .form-group label {
@@ -129,7 +130,7 @@ h2 {
       .valoracion .formulariocontacto .form-group textarea {
         resize: vertical; }
     .valoracion .formulariocontacto button {
-      background-color: cornflowerblue;
+      background-color: black;
       color: white;
       padding: 10px 20px;
       border: none;
@@ -137,7 +138,7 @@ h2 {
       cursor: pointer;
       transition: background-color 0.3s; }
       .valoracion .formulariocontacto button:hover {
-        background-color: #3676e8; }
+        background-color: black; }
 
 .contenedor {
   display: flex;
@@ -213,7 +214,7 @@ form {
   .titulo {
     color: red; }
   .texto {
-    color: blue; }
+    color: black; }
   .foto {
     width: 300px; }
   .footer {

@@ -1,5 +1,5 @@
 
-$formulario-color: cornflowerblue;
+$formulario-color: rgb(0, 0, 0);
 
 
 .opiniones{
@@ -34,11 +34,12 @@ h2{
       width: 400px;
       padding: 30px;
       margin: 0 auto;
-      border: 5px solid coral;
+      border: 5px solid rgb(145, 145, 145);
       border-radius: 5px;
 
     h2 {
       text-align: center;
+      color: white;
   }
 
   .form-group {
