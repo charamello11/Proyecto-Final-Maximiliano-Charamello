@@ -4,202 +4,209 @@
 @media (max-width: 425px) {
 
 
-.container{
-        grid-auto-flow: column;
-
-                }
-
-
-        /*MEDIAS QUERIES "SOBRE NOSOTROS"*/
-
-.contenedor{
-
-        margin-left: 50px;
-        margin-right: 50px;
-
-        }
-
-.titulo{
-        color: red;
-        }
-
-.texto{
-        color:black
-        }
-
-.foto{
-        width: 300px;
-        }
-
-.footer{
-        display: flex;
-        }
-
-.redes img{
-        width: 30px;
-        height: 30px;
-        }
-
-
-        /*MEDIAS QUERIES "MENU"*/
-
-.galeria{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 10px;
-        width: 100%;
-        height: 100%;
-        margin-top: 2%;
-        margin-bottom: 2%;
-        }
-
-
-
-        /*MEDIAS QUERIES "OPINIONES"*/
-
-
-        /*MEDIAS QUERIES "TU PEDIDO"*/
-
-.pedidos{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        .container{
+                grid-auto-flow: column;
         
-        .fotopizza{
-                width: 300px;
-                height: 300px;
-                margin: 30px;
-                }
-}
-
-}
-
-
-@media (max-width: 375px){
-
-
-        /*MEDIAS QUERIES "INDEX MOBILE M"*/
-
-.carrusel{
-        margin-top: 5%;
-}
-
-
-
-        /*MEDIAS QUERIES "MENU MOBILE M"*/
-
-
-.menuCatalogo{
-        margin-top: 5%;
-}
-
-
-.galeria{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 10px;
-        width: 100%;
-        height: 100%;
-        margin-top: 2%;
-        margin-bottom: 2%;
-        }
-
-
-
-        /*MEDIAS QUERIES "SOBRE NOSOTROS MOBILE M"*/
-
-.contenedor{
-        
-        margin-left: 30px;
-        margin-right: 30px;
-        
-        }
-.titulo{
-        color: red;
-        }
-
-.texto{
-        color:black
-        }
-.foto{
-        width: 200px;
-        margin-bottom: 50px;
-        }
-
-.footer{
-        display: flex;
-        }
-
-.redes img{
-        width: 20px;
-        height: 20px;
-        }
-
-
-/*MEDIAS QUERIES "TU PEDIDO MOBILE M"*/
-
-.pedidos{
-        margin-top: 5%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        
-        .fotopizza{
-                width: 300px;
-                height: 300px;
-                margin: 30px;
-                }
-}
-
-/*MEDIAS QUERIES "OPINIONES MOBILE M"*/
-
-.opiniones{
-        margin-top: 5%;
-}
-
-}
-
-@media (max-width: 320px){
-
-                /*MEDIAS QUERIES "INDEX MOBILE S"*/
-.carrusel{
-        margin-top: 5%;
-}
-
-.cardPedido {
-        width: 100%;
-        margin-bottom: 20px;
-                .card-body {
-                        padding: 10px;
-                                        }
-                        .card-title {
-                                font-size: 16px;
-                                                }
-                                .card-text {
-                                font-size: 14px;
-                                        }
-                                img {
-                                width: 100%;
-                                height: auto;
-                                }
                         }
-
-                /*MEDIAS QUERIES "MENU MOBILE S"*/
-.menuCatalogo{
-        margin-top: 5%;
-}
-
-                /*MEDIAS QUERIES "SOBRE NOSOTROS MOBILE S"*/
-.contenedor{ 
-        margin-top: 5%;
-}
-
-
-                /*MEDIAS QUERIES "TU PEDIDO MOBILE S"*/
-
-
-                /*MEDIAS QUERIES "OPINIONES MOBILE S"*/
-
-}
+        
+        
+                /*MEDIAS QUERIES "SOBRE NOSOTROS"*/
+        
+        .contenedor{
+        
+                margin-left: 50px;
+                margin-right: 50px;
+        
+                }
+        
+        .titulo{
+                color: red;
+                }
+        
+        .texto{
+                color:black
+                }
+        
+        .foto{
+                width: 300px;
+                }
+        
+        .footer{
+                display: flex;
+                }
+        
+        .redes img{
+                width: 30px;
+                height: 30px;
+                }
+        
+        
+                /*MEDIAS QUERIES "MENU"*/
+        
+        .galeria{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-gap: 10px;
+                width: 100%;
+                height: 100%;
+                margin-top: 2%;
+                margin-bottom: 2%;
+                }
+        
+        
+        
+                /*MEDIAS QUERIES "OPINIONES"*/
+        
+        
+                /*MEDIAS QUERIES "TU PEDIDO"*/
+        
+        .pedidos{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                
+                .fotopizza{
+                        width: 300px;
+                        height: 300px;
+                        margin: 30px;
+                        }
+        }
+        
+        .cardPedido{
+                width: 100%;
+                margin: 0;
+        }
+        
+        }
+        
+        
+        @media (max-width: 375px){
+        
+        
+                /*MEDIAS QUERIES "INDEX MOBILE M"*/
+        
+        .carrusel{
+                margin-top: 5%;
+        }
+        
+        
+        
+                /*MEDIAS QUERIES "MENU MOBILE M"*/
+        
+        
+        .menuCatalogo{
+                margin-top: 5%;
+        }
+        
+        
+        .galeria{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-gap: 10px;
+                width: 100%;
+                height: 100%;
+                margin-top: 2%;
+                margin-bottom: 2%;
+                }
+        
+        
+        
+                /*MEDIAS QUERIES "SOBRE NOSOTROS MOBILE M"*/
+        
+        .contenedor{
+                
+                margin-left: 30px;
+                margin-right: 30px;
+                
+                }
+        .titulo{
+                color: red;
+                }
+        
+        .texto{
+                color:black
+                }
+        .foto{
+                width: 200px;
+                margin-bottom: 50px;
+                }
+        
+        .footer{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                }
+        
+        .redes img{
+                width: 20px;
+                height: 20px;
+                }
+        
+        
+        /*MEDIAS QUERIES "TU PEDIDO MOBILE M"*/
+        
+        .pedidos{
+                margin-top: 5%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                
+                .fotopizza{
+                        width: 300px;
+                        height: 300px;
+                        margin: 30px;
+                        }
+        }
+        
+        /*MEDIAS QUERIES "OPINIONES MOBILE M"*/
+        
+        .opiniones{
+                margin-top: 5%;
+        }
+        
+        }
+        
+        @media (max-width: 320px){
+        
+                        /*MEDIAS QUERIES "INDEX MOBILE S"*/
+        .carrusel{
+                margin-top: 5%;
+        }
+        
+        .cardPedido {
+                width: 100%;
+                margin-bottom: 20px;
+                        .card-body {
+                                padding: 10px;
+                                                }
+                                .card-title {
+                                        font-size: 16px;
+                                                        }
+                                        .card-text {
+                                        font-size: 14px;
+                                                }
+                                        img {
+                                        width: 100%;
+                                        height: auto;
+                                        }
+                                }
+        
+                        /*MEDIAS QUERIES "MENU MOBILE S"*/
+        .menuCatalogo{
+                margin-top: 5%;
+        }
+        
+                        /*MEDIAS QUERIES "SOBRE NOSOTROS MOBILE S"*/
+        .contenedor{ 
+                margin-top: 5%;
+        }
+        
+        
+                        /*MEDIAS QUERIES "TU PEDIDO MOBILE S"*/
+        
+        
+                        /*MEDIAS QUERIES "OPINIONES MOBILE S"*/
+        
+        }

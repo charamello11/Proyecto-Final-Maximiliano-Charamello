@@ -25,12 +25,17 @@ font-family: 'Barlow Condensed', sans-serif;}
 
 .header{
     grid-area: header;
-    background-color: darkgray;
+    background: rgb(216,222,224);
+    background: radial-gradient(circle, rgba(216,222,224,1) 0%, rgba(141,135,154,1) 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
     border-radius: 10px;
+        h1{
+            font-weight: bold;
+            }
+    
 
     .navbar{
         border-radius: 15px;
@@ -42,6 +47,8 @@ font-family: 'Barlow Condensed', sans-serif;}
         }
     }
 }
+
+
 
 
 
@@ -71,9 +78,10 @@ font-family: 'Barlow Condensed', sans-serif;}
             margin-bottom: 5rem;
             text-align: center; }
 
-.footer { grid-area: footer;
+            .footer { grid-area: footer;
                 display: flex;
-                background-color: darkgray;
+                background: rgb(216,222,224);
+                background: radial-gradient(circle, rgba(216,222,224,1) 0%, rgba(141,135,154,1) 100%);
                 justify-content: space-between;
                 align-items: center;
                 padding: 5px;
@@ -82,9 +90,13 @@ font-family: 'Barlow Condensed', sans-serif;}
                     display: flex;
                     font-size: 28px;
                     justify-content: space-between;
+                    a {
+                        padding: 0 10px;
                             }
                             
                         }
+                        }
+
 
 @import "menu";
 @import "opiniones";
